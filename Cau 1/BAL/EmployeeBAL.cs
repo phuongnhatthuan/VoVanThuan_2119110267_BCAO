@@ -16,7 +16,7 @@ namespace Cau_1.BAL
             List<EmployeeDTO> lstCus = dal.ReadDepartment();
             return lstCus;
         }
-        public void ThemDepartment(EmployeeDTO cn)
+        public void ThemDepartment_2119110267(EmployeeDTO cn)
         {
             dal.ThemDepartment_2119110267(cn);
         }
