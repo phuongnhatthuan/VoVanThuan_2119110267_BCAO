@@ -29,7 +29,7 @@ namespace Cau_1.DAL
                 objDepartmentDTO.DateBirth = (DateTime.Parse(reader["DateBirth"].ToString()));
                 objDepartmentDTO.Gender = reader["Gender"].ToString();
                 objDepartmentDTO.PlaceBirth = reader["PlaceBirth"].ToString();
-                objDepartmentDTO.Department = Dep.ReadArea(int.Parse(reader["IdDepartment"].ToString()));
+                objDepartmentDTO.Department_2119110267 = Dep.ReadArea(int.Parse(reader["IdDepartment"].ToString()));
                 lstDepartment.Add(objDepartmentDTO);
             }
             conn.Close();
@@ -114,7 +114,7 @@ namespace Cau_1.DAL
                 cmd.Parameters.Add("@DateBirth", SqlDbType.Date).Value = cn.DateBirth;
                 cmd.Parameters.Add("@Gender", SqlDbType.NVarChar).Value = cn.Gender;
                 cmd.Parameters.Add("@PlaceBirth", SqlDbType.NVarChar).Value = cn.PlaceBirth;
-                cmd.Parameters.Add("@Department", SqlDbType.Int).Value = cn.Department.IdDepartment;
+                cmd.Parameters.Add("@Department", SqlDbType.Int).Value = cn.Department_2119110267.IdDepartment;
                 //mở chuỗi kết nối
                 conn.Open();
                 //sử dụng ExecuteNonQuery để thực thi
@@ -171,7 +171,7 @@ namespace Cau_1.DAL
                 cmd.Parameters.Add("@DateBirth", SqlDbType.Date).Value = cn.DateBirth;
                 cmd.Parameters.Add("@Gender", SqlDbType.NVarChar).Value = cn.Gender;
                 cmd.Parameters.Add("@PlaceBirth", SqlDbType.NVarChar).Value = cn.PlaceBirth;
-                cmd.Parameters.Add("@IdDepartment", SqlDbType.Int).Value = cn.Department.IdDepartment;
+                cmd.Parameters.Add("@IdDepartment", SqlDbType.Int).Value = cn.Department_2119110267.IdDepartment;
                 //mở chuỗi kết nối
                 con.Open();
                 //sử dụng ExecuteNonQuery để thực thi
