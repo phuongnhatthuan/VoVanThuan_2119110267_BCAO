@@ -16,7 +16,7 @@ namespace Cau_1.DAL
             SqlConnection conn = CreateConnection();
             conn.Open();
             //SqlCommand cmd = new SqlCommand("select * from  Employee", conn);
-            SqlCommand cmd = new SqlCommand("selectEmployee", conn);
+            SqlCommand cmd = new SqlCommand("selectEmployee_2119110267", conn);
             cmd.CommandType = CommandType.StoredProcedure;
             SqlDataReader reader = cmd.ExecuteReader();
             List<EmployeeDTO> lstDepartment = new List<EmployeeDTO>();
@@ -36,7 +36,7 @@ namespace Cau_1.DAL
             return lstDepartment;
         }
 
-        public void XoaDepartment(EmployeeDTO cn)
+        public void XoaDepartment_2119110267(EmployeeDTO cn)
         {
             /*SqlConnection conn = CreateConnection();
             conn.Open();
@@ -53,7 +53,7 @@ namespace Cau_1.DAL
                 //khỏi tạo instance của class SqlCommand
                 SqlCommand cmd = new SqlCommand();
                 //sử dụng thuộc tính CommandText để chỉ định tên Proc
-                cmd.CommandText = "XoaDepartment";
+                cmd.CommandText = "XoaDepartment_2119110267";
                 cmd.CommandType = CommandType.StoredProcedure;
                 cmd.Connection = con;
 
@@ -80,7 +80,7 @@ namespace Cau_1.DAL
 
 
         }
-        public void ThemDepartment(EmployeeDTO cn)
+        public void ThemDepartment_2119110267(EmployeeDTO cn)
         {
             /*SqlConnection conn = CreateConnection();
             conn.Open();
@@ -105,7 +105,7 @@ namespace Cau_1.DAL
                 //khỏi tạo instance của class SqlCommand
                 SqlCommand cmd = new SqlCommand();
                 //sử dụng thuộc tính CommandText để chỉ định tên Proc
-                cmd.CommandText = "ThemDepartment";
+                cmd.CommandText = "ThemDepartment_2119110267";
                 cmd.CommandType = CommandType.StoredProcedure;
                 cmd.Connection = conn;
                 //khai báo các thông tin của tham số truyền vào
@@ -137,7 +137,7 @@ namespace Cau_1.DAL
 
 
         }
-        public void SuaDepartment(EmployeeDTO cn)
+        public void SuaDepartment_2119110267(EmployeeDTO cn)
         {
             /*SqlConnection conn = CreateConnection();
             conn.Open();
@@ -161,7 +161,7 @@ namespace Cau_1.DAL
                 //khỏi tạo instance của class SqlCommand
                 SqlCommand cmd = new SqlCommand();
                 //sử dụng thuộc tính CommandText để chỉ định tên Proc
-                cmd.CommandText = "SuaDepartment";
+                cmd.CommandText = "SuaDepartment_2119110267";
                 cmd.CommandType = CommandType.StoredProcedure;
                 cmd.Connection = con;
 

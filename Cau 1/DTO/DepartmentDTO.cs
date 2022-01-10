@@ -10,6 +10,6 @@ namespace Cau_1.DTO
     {
         public int IdDepartment { get; set; }
         public string Name { get; set; }
-        public List<EmployeeDTO> Employees { get; set; }
+        public List<EmployeeDTO> Employees_2119110267 { get; set; }
     }
 }

@@ -13,10 +13,10 @@ namespace Cau_1.DTO
         public DateTime DateBirth { get; set; }
         public string Gender { get; set; }
         public string PlaceBirth { get; set; }
-        public DepartmentDTO Department { get; set; }
+        public DepartmentDTO Department_2119110267 { get; set; }
         public string NameDepartment
         {
-            get { return Department.Name; }
+            get { return Department_2119110267.Name; }
         }
     }
 }

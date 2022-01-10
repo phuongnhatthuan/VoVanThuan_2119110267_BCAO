@@ -18,15 +18,15 @@ namespace Cau_1.BAL
         }
         public void ThemDepartment(EmployeeDTO cn)
         {
-            dal.ThemDepartment(cn);
+            dal.ThemDepartment_2119110267(cn);
         }
-        public void XoaDepartment(EmployeeDTO cn)
+        public void XoaDepartment_2119110267(EmployeeDTO cn)
         {
-            dal.XoaDepartment(cn);
+            dal.XoaDepartment_2119110267(cn);
         }
-        public void SuaDepartment(EmployeeDTO cn)
+        public void SuaDepartment_2119110267(EmployeeDTO cn)
         {
-            dal.SuaDepartment(cn);
+            dal.SuaDepartment_2119110267(cn);
         }
     }
 }

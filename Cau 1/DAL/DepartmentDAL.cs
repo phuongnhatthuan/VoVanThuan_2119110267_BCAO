@@ -14,7 +14,7 @@ namespace Cau_1.DAL
         {
             SqlConnection conn = CreateConnection();
             conn.Open();
-            SqlCommand cmd = new SqlCommand("select * from Department", conn);
+            SqlCommand cmd = new SqlCommand("select * from Department_2119110267", conn);
             SqlDataReader reader = cmd.ExecuteReader();
 
             List<DepartmentDTO> lstArea = new List<DepartmentDTO>();
@@ -33,7 +33,7 @@ namespace Cau_1.DAL
             SqlConnection conn = CreateConnection();
             conn.Open();
             SqlCommand cmd = new SqlCommand(
-                "select * from Department where IdDepartment = " + IdDepartment.ToString(), conn);
+                "select * from Department_2119110267 where IdDepartment = " + IdDepartment.ToString(), conn);
             SqlDataReader reader = cmd.ExecuteReader();
             DepartmentDTO area = new DepartmentDTO();
             if (reader.HasRows && reader.Read())
