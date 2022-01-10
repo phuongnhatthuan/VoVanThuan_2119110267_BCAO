@@ -114,7 +114,7 @@ namespace Cau_1.DAL
                 cmd.Parameters.Add("@DateBirth", SqlDbType.Date).Value = cn.DateBirth;
                 cmd.Parameters.Add("@Gender", SqlDbType.NVarChar).Value = cn.Gender;
                 cmd.Parameters.Add("@PlaceBirth", SqlDbType.NVarChar).Value = cn.PlaceBirth;
-                cmd.Parameters.Add("@Department", SqlDbType.Int).Value = cn.Department_2119110267.IdDepartment;
+                cmd.Parameters.Add("@Department_2119110267", SqlDbType.Int).Value = cn.Department_2119110267.IdDepartment;
                 //mở chuỗi kết nối
                 conn.Open();
                 //sử dụng ExecuteNonQuery để thực thi
