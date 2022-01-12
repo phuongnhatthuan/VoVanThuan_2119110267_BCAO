@@ -184,6 +184,7 @@ namespace Cau_1
             // 
             // btnClear
             // 
+            this.btnClear.BackgroundImage = global::Cau_1.Properties.Resources._50_anh_background_dep_nhat_11;
             this.btnClear.Location = new System.Drawing.Point(685, 30);
             this.btnClear.Name = "btnClear";
             this.btnClear.Size = new System.Drawing.Size(92, 32);
@@ -194,6 +195,7 @@ namespace Cau_1
             // 
             // btnDelete
             // 
+            this.btnDelete.BackgroundImage = global::Cau_1.Properties.Resources._50_anh_background_dep_nhat_11;
             this.btnDelete.Location = new System.Drawing.Point(204, 30);
             this.btnDelete.Name = "btnDelete";
             this.btnDelete.Size = new System.Drawing.Size(92, 32);
@@ -218,6 +220,7 @@ namespace Cau_1
             // 
             // btnExit
             // 
+            this.btnExit.BackgroundImage = global::Cau_1.Properties.Resources._50_anh_background_dep_nhat_11;
             this.btnExit.Location = new System.Drawing.Point(532, 30);
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(92, 32);
@@ -228,6 +231,7 @@ namespace Cau_1
             // 
             // btnEdit
             // 
+            this.btnEdit.BackgroundImage = global::Cau_1.Properties.Resources._50_anh_background_dep_nhat_11;
             this.btnEdit.Location = new System.Drawing.Point(372, 30);
             this.btnEdit.Name = "btnEdit";
             this.btnEdit.Size = new System.Drawing.Size(92, 32);
@@ -238,6 +242,7 @@ namespace Cau_1
             // 
             // btnNew
             // 
+            this.btnNew.BackgroundImage = global::Cau_1.Properties.Resources._50_anh_background_dep_nhat_11;
             this.btnNew.Location = new System.Drawing.Point(50, 30);
             this.btnNew.Name = "btnNew";
             this.btnNew.Size = new System.Drawing.Size(92, 32);
@@ -256,6 +261,7 @@ namespace Cau_1
             this.Column4,
             this.Column5,
             this.Column6});
+            this.dgvDepartment.GridColor = System.Drawing.SystemColors.ControlLight;
             this.dgvDepartment.Location = new System.Drawing.Point(32, 143);
             this.dgvDepartment.Name = "dgvDepartment";
             this.dgvDepartment.RowHeadersWidth = 51;
@@ -279,6 +285,7 @@ namespace Cau_1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = global::Cau_1.Properties.Resources.background_3d_4k_085529380;
             this.ClientSize = new System.Drawing.Size(876, 563);
             this.Controls.Add(this.dtngaysinh);
             this.Controls.Add(this.cbdonvi);
